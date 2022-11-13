@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Index</title>
+  <meta charset="utf-8" />
+</head>
+<link rel="stylesheet" type="text/css" href="../styles/login.css?version=1" />
+<link rel="stylesheet" type="text/css" href="../styles/index.css?version=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+  h1 {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+</style>
+
+<body>
+  <div class="container">
+
+  </div>
+  <main>
+    <div class="formulario">
+      <h1>Iniciar sesión</h1>
+      <form method="post">
+        <div class="input_texto">
+          <input type="text" name="username" id="text" required>
+          <span></span>
+          <label>Usuario</label>
+        </div>
+        <div class="input_texto">
+          <input type="password" name="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pwd">Olvidé mi contraseña</div>
+        <input type="submit" value="Iniciar sesión">
+        <div class="registro">
+          No tienes cuenta? <a href="signup.html">Regístrate</a>
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <br />
+  <script src="../javascript/login.js"></script>
+</body>
+
+</html>
